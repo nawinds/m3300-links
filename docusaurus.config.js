@@ -234,6 +234,7 @@ const config = {
     ],
     customFields: {
         licenseKey: process.env.LICENSE_KEY,
+        oneSignalAppId: process.env.ONESIGNAL_APP_ID || '',
     },
 };
 
