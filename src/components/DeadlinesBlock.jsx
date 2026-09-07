@@ -73,7 +73,7 @@ const formatDeadline = (deadline, lecturerFilters) => {
 
 
     const formattedTime = formatUnixTimeIntoGCalTime(unixTimeDeadline);
-    const description = "Дедлайн добавлен с сайта m3301.nawinds.dev";
+    const description = "Дедлайн добавлен с сайта m3300.nawinds.dev";
     const link = deadline.url;
     const gcalLink = `https://calendar.google.com/calendar/u/0/r/eventedit?text=${encodeURIComponent(deadlineName)}&dates=${formattedTime}/${formattedTime}&details=${encodeURIComponent(description)}&color=6`;
 
