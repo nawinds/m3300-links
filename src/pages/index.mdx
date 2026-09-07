@@ -16,6 +16,14 @@ import Deadlines from '@site/src/components/DeadlinesBlock';
         bulychev: ['Булычев', 'bulychev'],
         nexign: ['Nexign', 'nexign']
       },
+    },
+    {
+      cookie: 'tab_data-lecturers',
+      keywords: ['данные'],
+      aliases: {
+        bulychev: ['Kotlin', 'kotlin'],
+        nexign: ['Другие', 'others']
+      },
     }
   ]}
 />
@@ -49,7 +57,14 @@ import PersistentTabs from '@site/src/components/PersistentTabs';
 </PersistentTabs>
 
 ## Технологии управления данными
-
+<PersistentTabs groupId="compilators-lecturers" defaultValue="bulychev">
+  <TabItem value="kotlin" label="Kotlin">
+      Кулешова Екатерина Дмитриевна
+  </TabItem>
+  <TabItem value="others" label="Другие">
+    <EditPageLink filePath="/src/pages/index.mdx" linkText="Добавить информацию об этом курсе" deadlinesEdit={true} />
+  </TabItem>
+</PersistentTabs>
 
 import EditPageLink from '@site/src/components/EditPageLink';
 
