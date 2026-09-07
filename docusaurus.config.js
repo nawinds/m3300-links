@@ -116,6 +116,11 @@ const config = {
                             }
                         ],
                     },
+                    {
+                        type: 'html',
+                        position: 'right',
+                        value: 'pushNotifications',
+                    },
                     // {
                     //     type: 'html',
                     //     position: 'right',
