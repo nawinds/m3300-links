@@ -199,7 +199,7 @@ const Deadlines = ({lecturerFilters}) => {
     }
     return (
         <div id="deadlinesBlock" style={{marginBottom: '20px'}}>
-            <h2>Экзамены</h2>
+            <h2>Дедлайны</h2>
             {deadlines.length === 0 ? (
                 <p>Нет предстоящих дедлайнов.</p>
             ) : (
